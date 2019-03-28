@@ -89,13 +89,13 @@ int main() {
                         std::cout << "window maximized -- width: " << event.window.data1 << ", height: "
                                 << event.window.data2 << std::endl;
                         break;
-                    case SDL_WINDOWEVENT_SIZE_CHANGED:
-                        std::cout << "window size changed -- width: " << event.window.data1 << ", height: "
-                                  << event.window.data2 << std::endl;
-//                        setupScreen(event.window.data1, event.window.data2, window, renderer);
-                        SDL_SetWindowSize(window, event.window.data1, event.window.data2);
-                        SDL_Renderer
-                        break;
+//                    case SDL_WINDOWEVENT_SIZE_CHANGED:
+//                        std::cout << "window size changed -- width: " << event.window.data1 << ", height: "
+//                                  << event.window.data2 << std::endl;
+////                        setupScreen(event.window.data1, event.window.data2, window, renderer);
+//                        SDL_SetWindowSize(window, event.window.data1, event.window.data2);
+//                        SDL_Renderer
+//                        break;
 //                    case SDL_WINDOWEVENT_RESIZED:
 //                        std::cout << "window resized -- width: " << event.window.data1 << ", height: "
 //                                  << event.window.data2 << std::endl;
